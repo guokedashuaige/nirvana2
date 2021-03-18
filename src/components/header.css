@@ -1,0 +1,48 @@
+.sup_navbar_item a {
+    padding: 0 !important;
+}
+
+
+/* css注释：设置了浏览器宽度不小于1201px时 abc 显示1200px宽度 */
+
+@media screen and (max-width: 1200px) {
+    .section {
+        padding: 10rem 1.5rem !important;
+    }
+}
+
+
+/* 设置了浏览器宽度不大于1200px时 abc 显示900px宽度 */
+
+@media screen and (max-width: 901px) {
+    .section {
+        padding: 6rem 1.5rem !important;
+    }
+}
+
+
+/* 设置了浏览器宽度不大于901px时 abc 显示200px宽度 */
+
+@media screen and (max-width: 500px) {
+    .yszl {
+        padding: 2rem 0 !important;
+    }
+    .summary .column .icon-container {
+        height: 70px;
+        line-height: 70px;
+    }
+    .summary .column .icon {
+        width: auto;
+        height: 70px;
+    }
+    .summary>.column>.has-text-centered {
+        margin-top: 1.5rem;
+    }
+    .section {
+        padding: 2rem 1.5rem !important;
+    }
+}
+.flex-content {
+    position: relative;
+    z-index: 1000;
+}
